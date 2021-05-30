@@ -1,0 +1,50 @@
+.score {
+    background-color: rgb(64, 95, 163);
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.cajaScore{
+    display: flex;
+    width: 100px;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.result{
+    width: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.board {
+    display: flex;
+    background-color: rgb(60, 60, 172);
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+}
+.caja{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    background-color: chocolate;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 30px;
+    cursor: pointer;
+    box-shadow:5px 5px 10px darkgray;
+}
+.caja:hover{
+    background-color: gold;
+    transition: background-color .5s;
+}
+body{
+    align-items: center;
+}
+#rock{
+    
