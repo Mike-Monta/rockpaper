@@ -1,10 +1,21 @@
+header{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    padding: 10px;
+    font-size: x-large;
+    background-color: darkslateblue;
+}
+button{
+    margin-left: 50px;
+}
 .score {
     background-color: rgb(64, 95, 163);
     height: 100px;
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size: larger;
+    font-size: xx-large;
 }
 
 .cajaScore{
@@ -12,6 +23,7 @@
     width: 100px;
     justify-content: flex-end;
     padding: 10px;
+    margin-left: 30px;
 }
 .result{
     width: 100px;
@@ -42,6 +54,7 @@
 .caja:hover{
     background-color: gold;
     transition: background-color .5s;
+    trans
 }
 body{
     align-items: center;

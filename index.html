@@ -10,7 +10,9 @@
 </head>
 <body>
     <header>
-
+        <p> Can you beat the computer?  --    Play best of 5</p>
+        
+        <button onclick="game(5)">New Game</button>
     </header>
     <div class ="score">
         <div>Total Score:</div>
@@ -26,15 +28,21 @@
         <div class="result">
             <p id="computerResult">0</p>
         </div>
+        <div class ="cajaScore">
+            <p>Ties:</p>
+        </div>
+        <div class="result">
+            <p id="ties">0</p>
+        </div>
     </div>
     <div class="board">
-        <div class="caja" id ="rock" >
+        <div class="caja" id ="rock" onclick="playRound('rock')" >
             <img src="assets/rock.png" alt="rock" width=150px height=150px>
         </div>
-        <div class="caja" id="paper" >
+        <div class="caja" id="paper" onclick="playRound('paper')" >
             <img src="assets/paper.png" alt="paper" width=160px height=160px>
         </div>
-        <div class="caja" id="scissors" >
+        <div class="caja" id="scissors" onclick="playRound('scissors')" >
             <img src="assets/scissors.png" alt="scissors" width=150px height=150px>
         </div>
     </div>
